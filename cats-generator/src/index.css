@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Borel", serif;
 
   color-scheme: light;
-  
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;

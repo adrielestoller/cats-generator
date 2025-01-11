@@ -1,13 +1,14 @@
-import './App.css'
+import "./App.css";
 
 function App() {
-
   return (
-    <div>
-      <h1>Hello World!</h1>
-      <button id="catGenerate">Generate cat!</button>
-    </div>
-  )
+    <>
+      <h1 id="title">🐱Cats Generate!</h1>
+      <button id="catGenerate">
+        <p>Generate</p>
+      </button>
+    </>
+  );
 }
 
-export default App
+export default App;
