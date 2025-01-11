@@ -1,6 +1,32 @@
 * {
   max-width: 1280px;
-  margin: 0;
-  padding: 0;
+  margin: 0 auto;
+  padding: 2rem;
   box-sizing: border-box;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1, p, button {
+  text-align: center;
+}
+
+#catGenerate {
+  padding: .7rem 1.2rem;
+  border: none;
+  border-radius: .5rem;
+  color: white;
+  font-weight: bold;
+  background-color: #f59c9c;
+  box-shadow: .15rem .15rem .15rem #ee7979;
+  transition: .5s;
+}
+
+#catGenerate:hover {
+  border-radius: 1rem;
+  background-color: #ee7979;
 }
