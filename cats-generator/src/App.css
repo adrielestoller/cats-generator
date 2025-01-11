@@ -1,7 +1,8 @@
 * {
   max-width: 1280px;
+  max-height: 720px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   box-sizing: border-box;
 }
 
@@ -11,12 +12,22 @@ div {
   align-items: center;
 }
 
+#catImage {
+  padding: 0;
+}
+
+#catImage > img {
+  max-width: 50vw;
+}
+
 #title {
+  padding: 0;
   text-align: center;
   text-shadow: 0.15rem 0.15rem 0.15rem #db8d8d;
 }
 
 #catGenerate {
+  margin-bottom: 0;
   padding: 0.7rem 1.2rem;
   border: none;
   border-radius: 0.5rem;
